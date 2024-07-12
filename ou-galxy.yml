@@ -1,0 +1,7 @@
+---
+- name: galaxy-testing 
+  hosts: ec2-13-201-224-57.ap-south-1.compute.amazonaws.com
+  become_method: sudo  
+  become: true 
+  roles: 
+    - ou-testing
